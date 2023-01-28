@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table 3</title>
+    <style>
+        table{
+            width: 100%;
+            border: 1px solid red;
+            border-collapse: collapse;
+             text-align: center; 
+            
+        }
+
+        /* th,td{ 
+
+            background-color: goldenrod;
+            border: 1px solid red;
+        }*/
+
+        th{
+            text-align: left;
+        }
+        /*Odd Even Coloring*/
+        tr:nth-child(even){
+            background-color: aquamarine;
+        }
+        tr:nth-child(odd){
+            background-color: greenyellow;
+        }
+        
+        #row1
+        {
+            background-color: red;
+        }
+
+        .colgroup1{
+            background-color: tomato;
+        }
+        
+    </style>
+</head>
+<body>
+     <table>
+        <colgroup span="1"  class="colgroup1"></colgroup>
+        <colgroup span="1" class="colgroup2"></colgroup>
+        <tr id="row1">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>Abishek 1</td>
+            <td>25</td>
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td>Leroy 1</td>
+            <td>52</td>
+            <td>732-111-1111</td>
+        </tr>
+        <tr>
+            <td>Leroy 2</td>
+            <td>52</td>
+            <td>732-111-1111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td>
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td>
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td>
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td>
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td> 
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td> 
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td> 
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td> 
+            <td>1111-11111</td>
+        </tr>
+        <tr>
+            <td colspan="">Holiday</td>
+            <td>25</td> 
+            <td>1111-11111</td>
+        </tr>
+
+    </table>
+</body>
+</html>
